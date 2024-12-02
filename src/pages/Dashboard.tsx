@@ -1,8 +1,10 @@
 import React from "react";
 import Sidebar from "@/components/sidebar/Sidebar";
+import ProtectedRoute from '@/components/ProtectedRoute';
 
 const Dashboard = () => {
   return (
+    <ProtectedRoute>
     <div className="flex h-[calc(100vh-32px)] m-4 bg-transparent rounded-lg">
         <Sidebar />
 
@@ -10,6 +12,7 @@ const Dashboard = () => {
         <h1 className="text-xl font-bold text-gray-800">Content</h1>
       </div>
     </div>
+    </ProtectedRoute>
   );
 };
 
