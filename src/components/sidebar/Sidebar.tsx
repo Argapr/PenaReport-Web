@@ -15,7 +15,7 @@ const Sidebar = () => {
                 </div>
                 <div className="space-y-4 mx-4">
                     <a
-                        href="#"
+                        href="/Dashboard"
                         className="flex justify-center py-2 items-center space-x-4 bg-[#D8C8DE] rounded-lg"
                     >
                         <Image
@@ -29,7 +29,7 @@ const Sidebar = () => {
                         </span>
                     </a>
                     <a
-                        href="#"
+                        href="/daftar-murid/DataSiswa"
                         className="flex justify-center py-2 items-center space-x-4 bg-[#D8C8DE] rounded-lg"
                     >
                         <Image
@@ -58,7 +58,7 @@ const Sidebar = () => {
                         <h3 className="text-base font-medium text-[#5D1A77]">
                             Asep Ridwan
                         </h3>
-                        <p className="text-xs text-gray-300 text-[#A066B6]">
+                        <p className="text-xs text-[#A066B6]">
                             Guru
                         </p>
                     </div>
