@@ -165,7 +165,7 @@ const Siswa: React.FC = () => {
                                                 </div>
                                                 <div>
                                                     <h3 className="text-[#5D1A77] font-semibold">
-                                                        {formatDate(report.tanggalKWU)}
+                                                        {(report.tanggalKWU)}
                                                     </h3>
                                                 </div>
                                             </div>
